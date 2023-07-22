@@ -1,0 +1,98 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {background-color: purple;
+    position: absolute;
+left: 170px;
+top: 30px;}
+
+h2 {text-shadow: 2px 2px mediumaquamarine;
+    background-color: lavenderblush;}
+
+p {background-color: lavenderblush;}
+
+a {background-color: lavenderblush;}
+
+body {background-color: lavenderblush;}
+
+header {background-color: purple;
+    position: relative;
+height: 300px;}
+
+nav {background-color: mediumpurple;}
+
+main {background-color: lavenderblush;}
+
+footer {background-color: violet;
+    text-align: center;
+padding: auto;}
+
+* {
+    border: 2px solid rgb(115, 246, 255);
+    margin: 10px;
+}
+
+.imageofPolly {
+margin: 20px;
+border: 2px solid purple;
+width: 300px;
+height: 300px;
+object-fit: cover;
+object-position: 0% 0%;
+border-radius: 100%;
+display:block;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 0 8px 16px 4px purple;
+}
+
+figure {
+    display: inline-block;
+    margin: auto;
+    position: relative
+}
+
+figcaption {
+position: absolute;
+bottom: 30px;
+left: 125px;
+border: black;
+background-color: lavender;
+text-shadow: 2px 2px magenta;
+font-style: italic;
+padding: 10px;
+box-shadow: 0 8px 16px 4px purple;
+border-radius: 40%;
+}
+
+#image1{
+    filter: blur(5px)
+}
+#image2{
+    filter: saturate(200%)
+}
+#image3{
+    filter: contrast(20%)
+}
+#image4{
+    filter: hue-rotate(70deg)
+}
+#image5{
+    filter: invert(90%)
+}
+#image6{
+    filter: sepia(90%)
+}
+#image7{
+    filter: invert()
+}
+#image8{
+    filter: sepia() (invert())
+}
+#image9{
+    filter: brightness(70%) contrast(400%)
+}
+#image10{
+    filter: hue-rotate(40deg) saturate(300%)
+}
